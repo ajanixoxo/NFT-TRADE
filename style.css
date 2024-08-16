@@ -163,3 +163,11 @@ nav {
     bottom: 0;
     left: 100px;
 }
+@media(max-width:767px){
+    nav{
+        flex-direction: column;
+    }
+    .hero{
+        
+    }
+}
