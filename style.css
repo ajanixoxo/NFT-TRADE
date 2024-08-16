@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(19, 13, 34);
+}
+
+main {
+    background: url(Hero\ Section.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+
+    .nav-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        margin-left: 20px;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            gap: 40px;
+            font-family: "Didact Gothic";
+
+            li {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .nav-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        margin-right: 100px;
+
+        div {
+            border: none;
+            background-color: rgb(143, 141, 141);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 10px;
+            gap: 10px;
+
+            svg {
+                position: relative;
+            }
+
+            input {
+                background-color: transparent;
+                border: none;
+                color: white;
+                width: 80%;
+                font-family: "Didact Gothic";
+                font-size: 18px;
+            }
+
+            ::placeholder {
+                color: white;
+            }
+        }
+
+        .btn {
+            position: absolute;
+            right: 93px;
+        }
+
+        button {
+            /* Button */
+            width: 148px;
+            height: 53px;
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            background-color: #0D0419;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            /* box-shadow: 5px 5px 35px #5FECFC; */
+            z-index: 99;
+
+
+        }
+    }
+}
+
+.hero {
+    margin-top: 7%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 30px;
+
+    .h1 {
+        font-size: 46px;
+        font-family: "Conthrax";
+        width: 1000px;
+    }
+
+    .p {
+        font-size: 24px;
+        font-family: Dhyana;
+        font-weight: 100;
+        color: #ccc;
+
+    }
+
+    button {
+        /* Button */
+        width: 178px;
+        height: 56px;
+        /* Inside auto layout */
+        flex: none;
+        flex-grow: 0;
+        background: linear-gradient(#5FECFC, #FFFFFF);
+        border: none;
+        border-radius: 30px;
+        box-shadow:5px 5px 5px 3px #fff;
+    }
+    .box{
+      display: flex; 
+      gap: 70px;
+      background-color: #45474776;
+      padding: 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(2px);
+      h1{
+       font-size: 30px;
+         font-family: "Conthrax";
+      }
+      P{
+        font-family: Dhyana;
+      }
+        
+    }
+}
+.brand{
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
