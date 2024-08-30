@@ -106,6 +106,7 @@ nav {
     }
 }
 
+
 .hero {
     margin-top: 7%;
     display: flex;
@@ -163,11 +164,57 @@ nav {
     bottom: 0;
     left: 100px;
 }
+
 @media(max-width:767px){
     nav{
         flex-direction: column;
+        div{
+            width: 100%;
+           
+        } .nav-left{
+                flex-direction: column;
+               ul{
+                display: none;
+               } 
+            }
+            .nav-right{
+                display: none;
+            }
     }
     .hero{
-        
+        width: 100%;
+        margin: 0;
+        justify-content:center;
+        align-items: center;
+        .h1{
+            font-size: 30px;
+            width: 300px;
+            text-align: center;
+        }
+        .p{
+            font-size: 16px;
+            text-align: center;
+        } 
+        .box{
+        gap: 30px;
+        h1{
+            font-size: 20px;
+            
+        }
+        p{
+            font-size: 12px;
+        }
+
+    }
+    }
+   
+    .brand{
+        width: 100%;
+        left: 10px;
+        img{
+            width: 80%;
+        }
+
+
     }
 }
