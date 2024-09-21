@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+.main {
+  background: url("images/Herobg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+nav{
+  ul {
+  
+    font-family: "Didact Gothic";
+  }
+  .hambuger{
+    width:30px;
+    height:40px;
+  }
+}
+.nav2{
+  border: none;
+  background-color:#f2cc!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+
+  svg {
+      position: relative;
+  }
+
+  input {
+      background-color: transparent;
+      border: none;
+      color: white;
+      width: 80%;
+      font-family: "Didact Gothic";
+      font-size: 18px;
+  }
+
+  ::placeholder {
+      color: white !important;
+  }
+}
+.hero {
+ 
+
+  .h1 {
+   
+      font-family: "Conthrax";
+      -webkit-text-stroke:1px #5FECFC;
+      
+    
+  }
+  .p {
+ 
+    font-family: Dhyana;
+    font-weight: 100;
+    color: #ccc;
+
+    
+}
+.brand{
+  width: 100vw;
+  left: 10px;
+  img{
+      width: 100%;
+  }
+
+
+}
+.second{
+  -webkit-text-stroke:1px #5FECFC;
+}
+.box{
+  display: flex; 
+
+  background-color: #45474776;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+  h1{
+  
+     font-family: "Conthrax";
+  }
+  P{
+    font-family: Dhyana;
+  }
+    
+}
+}
+.h1 {
+   
+  font-family: "Conthrax";
+  -webkit-text-stroke:1px #5FECFC;
+  
+
+}
+.second{
+  -webkit-text-stroke:1px #261350;
+  color:#5FECFC;
+}
+h4 {
+   color:white;
+  font-family: "Conthrax";
+}
